@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 import SignUp from './pages/SignUp';
 import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
+import ForgotPassword from './pages/ForgotPassword';
 
 const App: React.FC = () => {
   return (
@@ -11,6 +13,8 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
         </Routes>
       </div>
     </Router>

@@ -1,0 +1,16 @@
+# client
+/client/node_modules/
+/client/dist/
+/client/.env
+/client/.env.local
+
+# server
+/server/node_modules/
+/server/.env
+
+# global
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
